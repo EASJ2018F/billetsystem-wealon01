@@ -6,32 +6,16 @@ using System.Threading.Tasks;
 
 namespace BilletLib
 {
-    public class Bil
+    public class Bil:Baseklassen
     {
-        private string _nummerplade;
-        private DateTime _dato;
 
 
-        public string Nummerplade
-        {
-            get { return this._nummerplade; }
-            set { _nummerplade = value; }
-        }
-
-        public DateTime Dato
-        {
-            get { return this._dato; }
-            set { _dato = value; }
-        }
-
-
-
-        public int Pris()
+        public override int Pris()
         {
             return 240;
         }
 
-        public string køretøj()
+        public override string køretøj()
         {
             return "Bil";
         }

@@ -8,22 +8,6 @@ namespace BilletLib
 {
     public class MC
     {
-        private string _nummerplade;
-        private DateTime _dato;
-
-
-        public string Nummerplade
-        {
-            get { return this._nummerplade; }
-            set { _nummerplade = value; }
-        }
-
-        public DateTime Dato
-        {
-            get { return this._dato; }
-            set { _dato = value; }
-        }
-
 
 
         public int Pris()
