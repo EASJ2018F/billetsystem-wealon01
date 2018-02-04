@@ -6,22 +6,24 @@ using System.Threading.Tasks;
 
 namespace BilletLib
 {
-    public class MC
+    public class MC:Baseklassen
     {
-
-
-        public int Pris()
+        public override int Pris()
         {
-            return 125;
+            if (Brobizz==true)
+            {
+                return 125 / 100 * 95;
+            }
+            else
+            {
+                return 125;
+            }
         }
 
-        public string køretøj()
+        public override string køretøj()
         {
             return "MC";
         }
-
-
-
 
     }
 }

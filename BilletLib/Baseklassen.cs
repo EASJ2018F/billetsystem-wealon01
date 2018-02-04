@@ -9,19 +9,30 @@ namespace BilletLib
     public abstract class Baseklassen
     {
         private string _nummerplade;
-        private DateTime _dato;
-
+        public DateTime _dato;
+        public bool _brobizz;
 
         public virtual string Nummerplade
         {
-            get { return this._nummerplade; }
-            set { _nummerplade = value; }
+            get { return _nummerplade; }
+            set
+            {
+                if (value.Length>7)
+                {throw new ArgumentException("nummberpladen må max være 7 tegn");}
+                _nummerplade = value;
+            }
         }
-
+        
         public virtual DateTime Dato
         {
-            get { return this._dato; }
+            get { return _dato; }
             set { _dato = value; }
+        }
+
+        public virtual bool Brobizz
+        {
+            get { return _brobizz; }
+            set { _brobizz = value; }
         }
 
 

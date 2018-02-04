@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="BilletLib.Bil">
-    <Position X="1.25" Y="2.5" Width="1.5" />
+    <Position X="2.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAEAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAEQAAAAAA=</HashCode>
       <FileName>Bil.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="BilletLib.MC">
-    <Position X="3.5" Y="2.5" Width="1.5" />
+    <Position X="5.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAEAAAAAAA=</HashCode>
       <FileName>MC.cs</FileName>

@@ -5,21 +5,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace UnitTestProject1
 {
     [TestClass]
-    public class UnitTest1
+    public class MC_Test
     {
-        [TestMethod]
-        public void Bil_Pris()
-        {
-            Bil bil= new Bil();
-            Assert.AreEqual(bil.Pris(),240);
-        }
-
-        [TestMethod]
-        public void MC_Køretøj()
-        {
-            Bil køretøj = new Bil();
-            Assert.AreEqual(køretøj.køretøj(), "Bil");
-        }
 
         [TestMethod]
         public void MC_Pris()
@@ -29,10 +16,19 @@ namespace UnitTestProject1
         }
 
         [TestMethod]
-        public void Bil_Køretøj()
+        public void MC_Køretøj()
         {
             MC køretøj = new MC();
             Assert.AreEqual(køretøj.køretøj(), "MC");
         }
+
+        public void Brobizz_MC()
+        {
+
+            MC rabat = new MC();
+            rabat.Brobizz = true;
+            Assert.AreEqual(rabat.Pris(), 95);
+        }
+
     }
 }
