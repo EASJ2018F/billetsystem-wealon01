@@ -42,7 +42,9 @@
   <ItemGroup>
     <Compile Include="Baseklassen.cs" />
     <Compile Include="Bil.cs" />
+    <Compile Include="BilØresund.cs" />
     <Compile Include="MC.cs" />
+    <Compile Include="MCØresund.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

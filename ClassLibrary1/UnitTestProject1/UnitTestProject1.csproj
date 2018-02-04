@@ -49,7 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bil_Test.cs" />
+    <Compile Include="BilØresund_Test.cs" />
     <Compile Include="MC_Test.cs" />
+    <Compile Include="MCØresund_Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
