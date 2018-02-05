@@ -8,7 +8,7 @@ namespace BilletLib
 {
     public class BilØresund:Baseklassen
     {
-
+        
         public override int Pris()
         {
             if (Brobizz == true)

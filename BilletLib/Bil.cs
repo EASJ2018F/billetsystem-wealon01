@@ -8,7 +8,7 @@ namespace BilletLib
 {
     public class Bil:Baseklassen
     {       
-        public override string Nummerplade { get; set; }
+      
 
         public override int Pris()  
         {
